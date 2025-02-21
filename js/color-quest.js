@@ -4,8 +4,8 @@ var shared;
 
 function preload()
 {
-	// connect to the party server
-	partyConnect("wss://color-quest.github.io", "test");
+	// connect to the deepstream.io websocket server
+	partyConnect("wss://ws-0iff.onrender.com/deepstream", "test");
 
 	// begin loading shared object
 	// and provide starting values for the object to be used
