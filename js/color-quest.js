@@ -53,7 +53,7 @@ function setup()
 	noStroke();
 	
 	// Player
-	player = new Sprite(playerImg, 0, 0, 4);
+	player = new Sprite(playerImg, 4, 0, 0, 1);
 	
 	// Display info?
 	//partyToggleInfo(true);
